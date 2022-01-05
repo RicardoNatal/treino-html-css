@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap"); /* font-family: 'Jost', sans-serif; p's */
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@600&display=swap"); /* font-family: 'Spartan', sans-serif; titulo*/
+
+body {
+    margin: 0px;
+}
+
+.grupo {
+    background-image: url("https://wallpaperbat.com/img/319498-akatsuki-wallpaper-done-by-me-naruto.png");
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+
+.grupo h1 {
+    font-family: "Spartan", sans-serif;
+    color: white;
+    font-size: 800;
+    margin-top: 8%;
+    margin-left: 45%;
+}
+
+/**/
+
+.integrantes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-left: 15%;
+}
+
+.integrantes h1 {
+    font-family: "Spartan", sans-serif;
+    color: red;
+    font-size: 40px;
+    margin-left: 42%;
+    padding: 20px;
+}
+
+.integrante1,
+.integrante2,
+.integrante3,
+.integrante4,
+.integrante5,
+.integrante6,
+.integrante7,
+.integrante8,
+.integrante9,
+.integrante10,
+.integrante11 {
+    display: flex;
+    justify-content: center;
+    font-family: "Jost", sans-serif;
+}
+
+.integrante1 .desc,
+.integrante2 .desc,
+.integrante3 .desc,
+.integrante4 .desc,
+.integrante5 .desc,
+.integrante6 .desc,
+.integrante7 .desc,
+.integrante8 .desc,
+.integrante9 .desc,
+.integrante10 .desc,
+.integrante11 .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 25px;
+}
+
+.integrante1 .desc h2,
+.integrante2 .desc h2,
+.integrante3 .desc h2,
+.integrante4 .desc h2,
+.integrante5 .desc h2,
+.integrante6 .desc h2,
+.integrante7 .desc h2,
+.integrante8 .desc h2,
+.integrante9 .desc h2,
+.integrante10 .desc h2,
+.integrante11 .desc h2 {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Spartan", sans-serif;
+    color: red;
+}
+
+.integrante1 .desc h3,
+.integrante2 .desc h3,
+.integrante3 .desc h3,
+.integrante4 .desc h3,
+.integrante5 .desc h3,
+.integrante6 .desc h3,
+.integrante7 .desc h3,
+.integrante8 .desc h3,
+.integrante9 .desc h3,
+.integrante10 .desc h3,
+.integrante11 .desc h3 {
+    font-size: 25px;
+    margin-top: -3px;
+    font-weight: 650;
+}
+
+.integrante1 .desc p,
+.integrante2 .desc p,
+.integrante3 .desc p,
+.integrante4 .desc p,
+.integrante5 .desc p,
+.integrante6 .desc p,
+.integrante7 .desc p,
+.integrante8 .desc p,
+.integrante9 .desc p,
+.integrante10 .desc p,
+.integrante11 .desc p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.integrante1 .imagem {
+    width: 900px;
+    height: 300px;
+    background-image: url("https://pbs.twimg.com/profile_images/1115263484898553856/yGlECQae_400x400.jpg");
+    border-radius: 7px;
+    box-shadow: 10px 10px 5px rgb(177, 177, 177);
+}
+
+.integrante2 .imagem {
+    width: 800px;
+    height: 300px;
+    background-image: url("https://uploads.spiritfanfiction.com/fanfics/historias/202102/hidan--a-garota-que-amei-21652687-080220211758.jpg");
+    border-radius: 7px;
+    box-shadow: 10px 10px 5px rgb(177, 177, 177);
+}
+
+.integrante3 .imagem {
+    width: 880px;
+    height: 300px;
+    background-image: url("https://ovicio.com.br/wp-content/uploads/2020/10/20201007-naruto-itachi-uchiha-anime-tribute-1239755-1280x0-1-555x555.jpeg");
+    border-radius: 7px;
+    background-size: cover;
+    box-shadow: 10px 10px 5px rgb(177, 177, 177);
+}
+
+.integrante4 .imagem {
+    width: 915px;
+    height: 300px;
+    background-image: url("http://images6.fanpop.com/image/photos/41900000/Kakuzu-akatsuki-41946138-690-690.jpg");
+    border-radius: 7px;
+    background-size: cover;
+    box-shadow: 10px 10px 5px rgb(177, 177, 177);
+}
+
+.integrante4 .imagem {
+    width: 915px;
+    height: 300px;
+    background-image: url("http://images6.fanpop.com/image/photos/41900000/Kakuzu-akatsuki-41946138-690-690.jpg");
+    border-radius: 7px;
+    background-size: cover;
+    box-shadow: 10px 10px 5px rgb(177, 177, 177);
+}
+
+.integrante5 .imagem {
+    width: 915px;
+    height: 300px;
+    background-image: url("https://nerdhits.com.br/wp-content/uploads/2021/06/kisame-naruto-cosplay-1200x900.jpg");
+    border-radius: 7px;
+    background-size: cover;
+    box-shadow: 10px 10px 5px rgb(177, 177, 177);
+}
+
+.integrante6 .imagem {
+    width: 755px;
+    height: 300px;
+    background-image: url("https://i.pinimg.com/736x/b6/33/49/b633499d13fa4d48eb3f9b3ec93a7f64.jpg");
+    border-radius: 7px;
+    background-size: cover;
+    box-shadow: 10px 10px 5px rgb(177, 177, 177);
+}
+
+.integrante7 .imagem {
+    width: 755px;
+    height: 300px;
+    background-image: url("https://i.pinimg.com/736x/bd/00/34/bd003485feb1a3d54507aaf5b617218b.jpg");
+    border-radius: 7px;
+    background-size: cover;
+    box-shadow: 10px 10px 5px rgb(177, 177, 177);
+}
+
+.integrante8 .imagem {
+    width: 455px;
+    height: 300px;
+    background-image: url("https://uploads.spiritfanfiction.com/fanfics/historias/202010/imagine-hot-orochimaru-x-leitora-20663215-041020202150.jpg");
+    background-size: cover;
+    border-radius: 7px;
+    box-shadow: 10px 10px 5px rgb(177, 177, 177);
+}
+
+.integrante9 .imagem {
+    width: 650px;
+    height: 300px;
+    background-image: url("https://i.pinimg.com/474x/19/c7/6d/19c76dc11e6b7764423478f7843d9ca0.jpg");
+    background-size: cover;
+    border-radius: 7px;
+    box-shadow: 10px 10px 5px rgb(177, 177, 177);
+}
+
+.integrante10 .imagem {
+    width: 710px;
+    height: 300px;
+    background-image: url("https://uploads.spiritfanfiction.com/fanfics/historias/202106/sasori-short-one-shot-22584923-300620212130.jpg");
+    background-size: cover;
+    border-radius: 7px;
+    box-shadow: 10px 10px 5px rgb(177, 177, 177);
+}
+
+.integrante11 .imagem {
+    width: 650px;
+    height: 300px;
+    background-image: url("https://i.pinimg.com/originals/d0/8a/dd/d08addd7dfe5f563e7ba2c993169b73c.jpg");
+    background-size: cover;
+    border-radius: 7px;
+    box-shadow: 10px 10px 5px rgb(177, 177, 177);
+}
+
+.integrantes {
+    margin-bottom: 50px;
+}
